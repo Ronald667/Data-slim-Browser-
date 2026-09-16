@@ -1,0 +1,7 @@
+{
+  "name": "Data Saver Browser",
+  "description": "High-efficiency web browser with proxy data compression and AI GPT Mode that reduces web payloads and bandwidth consumption by over 50% through smart asset optimization, tracker blocking, conversational browsing, and reader synthesis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

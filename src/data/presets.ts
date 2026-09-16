@@ -1,0 +1,58 @@
+import { SpeedDialItem } from '../types';
+
+export const SPEED_DIAL_PRESETS: SpeedDialItem[] = [
+  {
+    id: 'metro-news',
+    title: 'Metro News Global',
+    url: 'benchmark://metro-news',
+    category: 'heavy_benchmark',
+    description: 'High-traffic news media loaded with ads, video preloads, and 24 tracking scripts.',
+    estimatedSaving: '~88% Data Saved',
+    iconName: 'Newspaper',
+  },
+  {
+    id: 'tech-forum',
+    title: 'Tech Hacker Forum',
+    url: 'benchmark://tech-forum',
+    category: 'heavy_benchmark',
+    description: 'Community tech thread on web bloat, font overhead, and proxy architectures.',
+    estimatedSaving: '~85% Data Saved',
+    iconName: 'MessageSquareCode',
+  },
+  {
+    id: 'wikipedia-compression',
+    title: 'Wikipedia: Compression',
+    url: 'benchmark://wikipedia-computing',
+    category: 'reference',
+    description: 'Encyclopedic breakdown of Huffman, LZ77, Brotli, and proxy compression systems.',
+    estimatedSaving: '~82% Data Saved',
+    iconName: 'BookOpen',
+  },
+  {
+    id: 'live-wikipedia',
+    title: 'Live Wikipedia (Online)',
+    url: 'https://en.wikipedia.org/wiki/Lossless_compression',
+    category: 'reference',
+    description: 'Direct live proxy of Wikipedia servers with font stripping and image downsampling.',
+    estimatedSaving: '~75% Data Saved',
+    iconName: 'Globe',
+  },
+  {
+    id: 'live-hackernews',
+    title: 'Hacker News Live',
+    url: 'https://news.ycombinator.com',
+    category: 'tech',
+    description: 'Real-time technology news aggregator optimized for instant text-first delivery.',
+    estimatedSaving: '~65% Data Saved',
+    iconName: 'Cpu',
+  },
+  {
+    id: 'live-gutenberg',
+    title: 'Project Gutenberg',
+    url: 'https://www.gutenberg.org',
+    category: 'reference',
+    description: 'Free public domain library optimized with pure reader typography.',
+    estimatedSaving: '~78% Data Saved',
+    iconName: 'Library',
+  },
+];
